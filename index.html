@@ -3,20 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Art Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>My Art Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="prices.html">Prices</a>
+        </nav>
+        <div class="social-links">
+            <a href="https://discord.gg/example" target="_blank">Discord</a>
+            <a href="https://instagram.com/example" target="_blank">Instagram</a>
+            <a href="https://twitter.com/example" target="_blank">Twitter</a>
+        </div>
     </header>
+
     <main>
-        <section id="gallery">
-            <!-- Art images will be loaded here by JavaScript -->
+        <section class="artwork left-align">
+            <div class="art-content">
+                <img src="art/1.png" alt="Artwork 1">
+                <div class="art-text">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="artwork right-align">
+            <div class="art-content">
+                <div class="art-text">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <img src="art/2.png" alt="Artwork 2">
+            </div>
+        </section>
+
+        <section class="artwork left-align">
+            <div class="art-content">
+                <img src="art/3.png" alt="Artwork 3">
+                <div class="art-text">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="artwork right-align">
+            <div class="art-content">
+                <div class="art-text">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <img src="art/4.png" alt="Artwork 4">
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </footer>
     <script src="script.js"></script>
 </body>
