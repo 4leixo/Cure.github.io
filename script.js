@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- IMPORTANT: Replace these with your actual image filenames --- 
     const imageFiles = [
+        'fan art.png' // Added the image filename
         // 'image1.jpg',
         // 'painting_a.png',
         // 'digital_art_final.gif',
